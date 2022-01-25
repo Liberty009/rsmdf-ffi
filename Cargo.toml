@@ -9,4 +9,4 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-rsmdf = {path = "../rsmdf"}
+rsmdf = {git = "https://github.com/Liberty009/rsmdf", branch = "master"}
